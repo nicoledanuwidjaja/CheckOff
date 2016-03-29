@@ -7,6 +7,14 @@ import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/**
+ *
+ * CheckOff
+ *
+ * Created by Nicole on 1/26/16
+ * Copyright Narwhal Android 2016
+ *
+ */
 public class ListActivity extends FragmentActivity {
 
     @Override

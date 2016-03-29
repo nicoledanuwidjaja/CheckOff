@@ -2,5 +2,8 @@
     <string name="app_name">CheckOff</string>
     <string name="title_activity_list">ListActivity</string>
     <string name="list_title_hint">Enter a title for the entry.</string>
+    <string name="list_title_label">Title</string>
+    <string name="list_details_label">Details</string>
+    <string name="list_completed_label">Completed?</string>
     <string name="action_settings">Settings</string>
 </resources>
