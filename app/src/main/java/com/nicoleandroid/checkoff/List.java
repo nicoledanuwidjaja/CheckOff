@@ -1,4 +1,4 @@
-package checkoff.nicoleandroid.com.checkoff;
+package com.nicoleandroid.checkoff;
 
 import java.util.Date;
 import java.util.UUID;
@@ -23,6 +23,11 @@ public class List {
         mId = UUID.randomUUID();
         mDate = new Date();
 
+    }
+
+    @Override
+    public String toString() {
+        return mTitle;
     }
 
     public UUID getId() {

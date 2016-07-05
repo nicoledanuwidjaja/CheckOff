@@ -1,10 +1,8 @@
-package checkoff.nicoleandroid.com.checkoff;
+package com.nicoleandroid.checkoff;
 
-import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.view.Menu;
-import android.view.MenuItem;
+
+import java.util.UUID;
 
 /**
  *
@@ -19,6 +17,9 @@ public class ListActivity extends SingleFragmentActivity {
     @Override
 
     protected Fragment createFragment() {
-        return new ListFragment();
+
+        UUID ListId = (UUID)getIntent().getSerializableExtra(ListFragment.EXTRA_LIST_ID);
+
+        return ListFragment.newInstance(ListId);
     }
 }

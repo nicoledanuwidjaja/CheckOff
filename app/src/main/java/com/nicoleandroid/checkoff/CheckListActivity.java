@@ -1,4 +1,4 @@
-package checkoff.nicoleandroid.com.checkoff;
+package com.nicoleandroid.checkoff;
 
 import android.support.v4.app.Fragment;
 
@@ -12,6 +12,6 @@ public class CheckListActivity extends SingleFragmentActivity {
 
     @Override
     protected Fragment createFragment() {
-        return new ListFragment();
+        return new CheckListFragment();
     }
 }

@@ -1,4 +1,4 @@
-package checkoff.nicoleandroid.com.checkoff;
+package com.nicoleandroid.checkoff;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

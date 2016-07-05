@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.0"
 
     defaultConfig {
-        applicationId "checkoff.nicoleandroid.com.checkoff"
+        applicationId "com.nicoleandroid.checkoff"
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1
