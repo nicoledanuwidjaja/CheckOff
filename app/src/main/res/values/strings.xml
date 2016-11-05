@@ -6,5 +6,6 @@
     <string name="list_details_label">Details</string>
     <string name="list_completed_label">Completed?</string>
     <string name="tasks_title">Tasks</string>
+    <string name="date_picker_title">Date of Task:</string>
     <string name="action_settings">Settings</string>
 </resources>

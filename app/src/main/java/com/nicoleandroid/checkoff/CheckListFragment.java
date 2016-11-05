@@ -47,10 +47,10 @@ public class CheckListFragment extends ListFragment {
         // Get the Crime from the adapter
         List t = ((CheckListAdapter)getListAdapter()).getItem(position);
         // Log.d(TAG, c.getTitle() + " was clicked");
-        // Start CrimeActivity
-        Intent i = new Intent(getActivity(), ListActivity.class);
-        // ISSUE WITH EXTRA_LIST_ID --> ListFragment.java
-        // i.putExtra(ListFragment.EXTRA_LIST_ID, t.getId());
+        // Start ListPagerActivity
+        Intent i = new Intent(getActivity(), ListPagerActivity.class);
+        // string location works, string variable doesn't
+        i.putExtra("com.nicoleandroid.checkoff.list_id", t.getId());
         startActivityForResult(i, REQUEST_LIST);
     }
 

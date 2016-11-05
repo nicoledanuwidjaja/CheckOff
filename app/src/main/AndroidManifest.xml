@@ -15,7 +15,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.nicoleandroid.checkoff.ListActivity"
+            android:name="com.nicoleandroid.checkoff.ListPagerActivity"
             android:label="@string/app_name" >
         </activity>
     </application>
